@@ -31,8 +31,7 @@ void Button::setDown(){
 
 void Button::setUp(){
     p1 = p2;
-    player->play();
-    update();
+
 }
 
 Button::~Button() {}
